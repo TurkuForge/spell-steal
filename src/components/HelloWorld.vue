@@ -27,9 +27,9 @@ const count = ref(0);
   </p>
 
   <button
+    class="bg-indigo-500 text-white p-2 rounded-md"
     type="button"
     @click="count++"
-    class="bg-indigo-500 text-white p-2 rounded-md"
   >
     count is: {{ count }}
   </button>
