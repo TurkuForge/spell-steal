@@ -27,7 +27,7 @@ const count = ref(0);
   </p>
 
   <button
-    class="bg-indigo-500 text-white p-2 rounded-md"
+    class="rounded-md bg-indigo-500 p-2 text-white"
     type="button"
     @click="count++"
   >
