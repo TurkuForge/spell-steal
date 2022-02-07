@@ -1,5 +1,5 @@
 import { render, fireEvent } from "@testing-library/vue";
-import Component from "./HelloWorld.vue";
+import Component from "@/components/HelloWorld.vue";
 
 test("increments value on click", async () => {
   // The render method returns a collection of utilities to query your component.
