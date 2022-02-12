@@ -1,9 +1,13 @@
 <script setup lang="ts">
-import { ref } from "vue";
+import { $ref } from "vue/macros";
 
 defineProps<{ msg: string }>();
 
-const count = ref(0);
+let count = $ref(0);
+
+function increment() {
+  count += 1;
+}
 </script>
 
 <template>
@@ -29,7 +33,7 @@ const count = ref(0);
   <button
     class="rounded-md bg-indigo-500 p-2 text-white"
     type="button"
-    @click="count++"
+    @click="increment"
   >
     count is: {{ count }}
   </button>
