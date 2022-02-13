@@ -31,7 +31,7 @@ function increment() {
   </p>
 
   <button
-    class="rounded-md bg-indigo-500 p-2 text-white"
+    class="rounded-md bg-indigo-600 p-2 font-bold text-white"
     type="button"
     @click="increment"
   >
@@ -45,7 +45,7 @@ function increment() {
 
 <style scoped>
 a {
-  color: #42b983;
+  color: #2f835d;
 }
 
 label {
